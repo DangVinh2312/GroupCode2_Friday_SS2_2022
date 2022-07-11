@@ -1,4 +1,0 @@
- *Note:
-    - Error "StatusLogger Log4j2 could not find a logging..." not effects to program.
-    - Time to run program depends on size of input data and number of life cycle.
-    - Program use jdk -11.0.1.3 standard.

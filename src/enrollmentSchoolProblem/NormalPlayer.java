@@ -1,9 +1,9 @@
-package demo;
+/**
+ * @author Vu Dinh Duy _ 1901040047
+ */
+package enrollmentSchoolProblem;
 
 import java.util.List;
-
-
-
 /**
  * @object A typical Normal Player is
  *

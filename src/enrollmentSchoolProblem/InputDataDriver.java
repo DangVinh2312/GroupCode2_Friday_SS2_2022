@@ -1,9 +1,9 @@
-package demo;
-
 /**
- *Kiểm tra thư viện ko cần thiết
- *kiểm tra import thư viện
+ * @author Vu Dinh Duy _ 1901040047
  */
+package enrollmentSchoolProblem;
+
+
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.DataFormatter;
@@ -18,7 +18,7 @@ import java.util.List;
 
 public class InputDataDriver {
     //row to start reading
-    private static final int START_ROW = 31;
+    private static final int START_ROW = 39;
     //path to access file xlsx
     private String path;
     //Constructor
@@ -37,7 +37,7 @@ public class InputDataDriver {
         //define line to start
         int row = START_ROW;
         // get number of normal player 
-        int numberOfNormalPlayer = Integer.parseInt(getStringOfCoordinate(30,0));
+        int numberOfNormalPlayer = Integer.parseInt(getStringOfCoordinate(37,0));
         // loop normal player one by one and add it to list
         normalPlayerList = new ArrayList<>(numberOfNormalPlayer);
         for (int i = 0; i <numberOfNormalPlayer; i++) {
@@ -216,7 +216,7 @@ public class InputDataDriver {
     	//result to return function
     	int result=0;
     	// get number of normal player 
-        int numberOfNormalPlayer = Integer.parseInt(getStringOfCoordinate(30,0));
+        int numberOfNormalPlayer = Integer.parseInt(getStringOfCoordinate(37,0));
         /*
          * loop normalPlayerList
          *     if normalPlayer is school
@@ -241,7 +241,7 @@ public class InputDataDriver {
      	int row = START_ROW;
      	int result=0;
      	// get number of normal player 
-         int numberOfNormalPlayer = Integer.parseInt(getStringOfCoordinate(30,0));
+         int numberOfNormalPlayer = Integer.parseInt(getStringOfCoordinate(37,0));
          /*
           * loop normalPlayerList
           *     if normalPlayer is student

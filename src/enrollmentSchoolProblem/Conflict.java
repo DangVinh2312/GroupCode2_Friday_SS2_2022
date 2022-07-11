@@ -1,4 +1,7 @@
-package demo;
+/**
+ * @author Vu Dinh Duy _ 1901040047
+ */
+package enrollmentSchoolProblem;
 
 public class Conflict {
     private float[] conflictDataSet ;
